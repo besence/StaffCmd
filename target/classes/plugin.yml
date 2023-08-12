@@ -1,0 +1,19 @@
+name: TestCmd
+version: '1.0-SNAPSHOT'
+main: com.besence.testcmd.TestCmd
+api-version: '1.19'
+load: STARTUP
+
+commands:
+  fly:
+    description: allow flying
+    usage:  /fly [on|off]
+
+  staff:
+    description: staff command
+    usage: /staff [creative|spectator|survival|adventure|teleport|co i|kick]
+
+
+  mochi:
+    description: mochiko kill
+    usage: /mochi
